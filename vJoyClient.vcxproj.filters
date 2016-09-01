@@ -30,9 +30,4 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
-  <ItemGroup>
-    <Xsd Include="demo.py">
-      <Filter>Source Files</Filter>
-    </Xsd>
-  </ItemGroup>
 </Project>

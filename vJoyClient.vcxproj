@@ -221,7 +221,8 @@
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
     <PostBuildEvent>
-      <Command>copy /y lib\amd64\vJoyInterface.dll "$(OutDir)"</Command>
+      <Command>copy /y lib\amd64\vJoyInterface.dll "$(OutDir)"
+copy /y DJI_Interface.py "$(OutDir)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Rel64|Win32'">
